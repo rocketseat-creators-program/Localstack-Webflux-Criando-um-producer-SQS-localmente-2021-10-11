@@ -5,6 +5,37 @@ Nessa aula vamos aprender como utilizar o localstack que é um emulador de servi
 
 Tecnologias utilizadas: Spring Webflux, Localstack, AWS SDK, AWS CLI, SQS e Docker
 
+
+### Comandos para criar ambiente e testar a aplicação 
+- Subir o container localstack com o sqs 
+
+
+  ````
+  docker-compose up
+  ````
+  
+ - Criar fila SQS
+
+
+  ````
+   aws --endpoint-url=http://localhost:4566 sqs create-queue --queue-name process-order-queue
+  ````
+  
+ - Criar mensagens na fila
+
+
+  ````
+   curl --location --request POST 'http://localhost:8080/checkout/create-payment
+  ````
+  
+  ## Arquitetura producer e consumer:
+  
+  
+
+
+[Aula com o desenvolvimento do consumer]()
+
+
 [Slides]()
 
 
