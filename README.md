@@ -30,11 +30,12 @@ Tecnologias utilizadas: Spring Webflux, Localstack, AWS SDK, AWS CLI, SQS e Dock
   ````
   
   ## Arquitetura producer e consumer:
-  
+ 
+ <img src="https://github.com/rocketseat-experts-club/Localstack-Webflux-Criando-um-producer-SQS-localmente-2021-10-11/blob/main/arquitetura.drawio%20(2).png">
   
 
 
-[Aula com o desenvolvimento do consumer]()
+[Aula com o desenvolvimento do consumer]() em breve
 
 
 [Slides]()
