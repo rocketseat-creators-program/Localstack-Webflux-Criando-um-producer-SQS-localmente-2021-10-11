@@ -38,7 +38,7 @@ Tecnologias utilizadas: Spring Webflux, Localstack, AWS SDK, AWS CLI, SQS e Dock
 [Aula com o desenvolvimento do consumer]() em breve
 
 
-[Slides]()
+[Slides](https://github.com/rocketseat-experts-club/Localstack-Webflux-Criando-um-producer-SQS-localmente-2021-10-11/blob/main/_Localstack%20%2B%20Webflux_%20Criando%20um%20producer%20SQS%20gratuitamente.pdf)
 
 
 ## Expert
